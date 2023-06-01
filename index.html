@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio DevQuest - Formulário</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        <section class="informacoes">
+            <h1 class="titulo">FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+            <p class="descricao">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em
+                contato em menos de 24h.</p>
+        </section>
+
+        <section class="formulario">
+            <form>
+                <input class="informacao-usuario" type="text" name="Nome" placeholder="Nome Completo *">
+                <span class="mensagemErro"></span><br>
+
+                <input class="informacao-usuario" type="email" name="email" placeholder="E-mail *">
+                <span class="mensagemErro"></span><br>
+
+                <input class="informacao-usuario" type="tel" name="telefone" placeholder="Telefone *">
+                <span class="mensagemErro"></span><br>
+
+                <textarea class="informacao-usuario" name="mensagem" placeholder="Mensagem *"></textarea>
+                <span class="mensagemErro"></span>
+
+                <span class="aviso">*campos obrigatórios</span>
+
+                <button id="botaoEnviar">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <script src="./src/js/validar-formulario.js"></script>
+</body>
+
+</html>

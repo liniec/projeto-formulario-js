@@ -1,0 +1,62 @@
+/* Estilos para telas menores ou iguais a 425px */
+@media (max-width: 425px) {
+    main {
+        height: 100vh;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .informacoes {
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .formulario {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formulario form {
+        width: 80%;
+        height: 90%;
+    }
+}
+
+@media (width: 688px) {
+    main {
+        height: 100vh;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .informacoes {
+        margin-right: 0;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .formulario {
+        width: 70%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formulario form {
+        width: 90%;
+        height:80%;
+    }
+}

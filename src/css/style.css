@@ -1,0 +1,102 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/bg-repeat.jpg);
+    background-size: contain;
+    height: 100vh;
+}
+
+.informacoes {
+    color: #FFFFFF;
+    width: 325px;
+    margin-right: 73px;
+}
+
+.informacoes .titulo {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.informacoes .descricao {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    margin-top: 11px;
+}
+
+.formulario {
+    display: flex;
+    width: 340px;
+    height: 400px;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario .aviso {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+#botaoEnviar {
+    background-color: #3CCC87;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.informacao-usuario {
+    border: solid 1px #000;
+    border-radius: 5px;
+}
+
+.informacao-usuario::placeholder {
+    padding: 10px;
+    color: #A8A8A8;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+input {
+    height: 35px;
+    margin-bottom: 1px;
+}
+
+
+input.invalido,
+textarea.invalido {
+    border: 1px solid red;
+}
+
+input.campo-preenchido,
+textarea.campo-preenchido {
+    border: 1px solid green;
+}
+
+.mensagemErro {
+    color: red;
+    font-size: 9px;
+    height: 0;
+}
